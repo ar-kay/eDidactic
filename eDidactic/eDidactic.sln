@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eDidactic.Domain", "eDidactic.Domain\eDidactic.Domain.csproj", "{146C179C-1682-44CF-806D-EA1E1699FA29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eDidactic.WebUI", "eDidactic.WebUI\eDidactic.WebUI.csproj", "{6617454B-EE39-4FB5-93EE-11F91068574B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eDidactic.UnitTests", "eDidactic.UnitTests\eDidactic.UnitTests.csproj", "{3FA431E2-B7B7-4FB9-A62F-B40102CEAF0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{146C179C-1682-44CF-806D-EA1E1699FA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146C179C-1682-44CF-806D-EA1E1699FA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146C179C-1682-44CF-806D-EA1E1699FA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146C179C-1682-44CF-806D-EA1E1699FA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6617454B-EE39-4FB5-93EE-11F91068574B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6617454B-EE39-4FB5-93EE-11F91068574B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6617454B-EE39-4FB5-93EE-11F91068574B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6617454B-EE39-4FB5-93EE-11F91068574B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA431E2-B7B7-4FB9-A62F-B40102CEAF0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA431E2-B7B7-4FB9-A62F-B40102CEAF0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA431E2-B7B7-4FB9-A62F-B40102CEAF0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA431E2-B7B7-4FB9-A62F-B40102CEAF0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
