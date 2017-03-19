@@ -1,0 +1,21 @@
+﻿@using eDidactic.Domain.Entities
+@model IEnumerable<Course>
+
+@{
+    ViewBag.Title = "Kursy";
+}
+<div>
+    <h1>Hello eDidactic!</h1>
+    <h2>Lista kursów:</h2>
+</div>
+
+@foreach (var p in Model)
+{
+    <div>
+        <h3>@p.Name</h3>
+        <h4>@p.Description</h4>
+    </div>
+}
+
+
+
