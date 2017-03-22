@@ -18,7 +18,7 @@ namespace eDidactic.WebUI.Controllers
 
         public ViewResult List()
         {
-            return View(repository.Course);
+            return View(repository.Courses);
         }
 
     }

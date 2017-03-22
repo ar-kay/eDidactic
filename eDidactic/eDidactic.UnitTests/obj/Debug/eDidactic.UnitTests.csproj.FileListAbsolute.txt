@@ -28,6 +28,7 @@ C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\Syst
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\System.Web.WebPages.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\System.Web.WebPages.Razor.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\WebActivator.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\EntityFramework.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\eDidactic.Domain.pdb
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\eDidactic.WebUI.pdb
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\Moq.xml
@@ -43,6 +44,7 @@ C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\Syst
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\System.Web.WebPages.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\EntityFramework.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\obj\Debug\eDidactic.UnitTests.csprojResolveAssemblyReference.cache
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\obj\Debug\eDidactic.UnitTests.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\obj\Debug\eDidactic.UnitTests.pdb

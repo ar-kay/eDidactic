@@ -5,6 +5,6 @@ namespace eDidactic.Domain.Abstract
 {
     public interface ICourseRepository
     {
-        IEnumerable<Course> Course { get; }
+        IEnumerable<Course> Courses { get; }
     }
 }

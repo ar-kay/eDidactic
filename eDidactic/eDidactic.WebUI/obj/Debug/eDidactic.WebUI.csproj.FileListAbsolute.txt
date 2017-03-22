@@ -14,6 +14,8 @@ C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\eDidactic.WebU
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\eDidactic.WebUI.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\eDidactic.WebUI.pdb
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\eDidactic.Domain.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\EntityFramework.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\EntityFramework.SqlServer.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Microsoft.Web.Infrastructure.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Moq.dll
@@ -28,6 +30,8 @@ C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\System.Web.Web
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\System.Web.Webpages.Razor.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\WebActivator.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\eDidactic.Domain.pdb
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\EntityFramework.xml
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\EntityFramework.SqlServer.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Moq.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Ninject.pdb

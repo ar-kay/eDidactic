@@ -1,5 +1,8 @@
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\eDidactic.Domain.dll.config
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\eDidactic.Domain.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\eDidactic.Domain.pdb
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\EntityFramework.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\EntityFramework.SqlServer.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.Helpers.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.Mvc.dll
@@ -7,12 +10,13 @@ C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.WebPages.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\EntityFramework.xml
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.Helpers.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.Mvc.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.Razor.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.WebPages.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\obj\Debug\eDidactic.Domain.csprojResolveAssemblyReference.cache
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\obj\Debug\eDidactic.Domain.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\obj\Debug\eDidactic.Domain.pdb
