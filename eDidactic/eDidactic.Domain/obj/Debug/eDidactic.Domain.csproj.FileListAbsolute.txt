@@ -20,3 +20,4 @@ C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\obj\Debug\eDidactic.Domain.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\obj\Debug\eDidactic.Domain.pdb
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\obj\Debug\eDidactic.Domain.csprojResolveAssemblyReference.cache

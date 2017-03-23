@@ -9,11 +9,12 @@
     <h2>Lista kursów:</h2>
 </div>
 
-@foreach (var p in Model)
-{
-    <div>
-        <h3>@p.Name</h3>
-        <h4>@p.Description</h4>
+@foreach (var p in Model){
+    <div class="well">
+        <h3>
+            <strong>@p.Name</strong>
+        </h3>
+        <span class="pull-right label label-primary">@p.Description</span>
     </div>
 }
 
