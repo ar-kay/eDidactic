@@ -48,3 +48,8 @@ C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\Enti
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\obj\Debug\eDidactic.UnitTests.csprojResolveAssemblyReference.cache
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\obj\Debug\eDidactic.UnitTests.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\obj\Debug\eDidactic.UnitTests.pdb
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\Glimpse.Ado.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\Glimpse.AspNet.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\Glimpse.Core.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\Glimpse.EF6.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.UnitTests\bin\Debug\Glimpse.Mvc5.dll

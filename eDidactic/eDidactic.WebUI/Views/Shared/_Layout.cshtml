@@ -8,26 +8,28 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <div class="navbar navbar-inverse" role="navigation">
-        <a class="navbar-brand" href="#">eDidactic</a>
-    </div>
+<div class="navbar navbar-inverse" role="navigation">
+    <a class="navbar-brand" href="#">eDidactic</a>
+</div>
+
 <div class="row panel">
-    <div id="categories" class="col-xs-3">
-        Tutaj będą do wyboru jakieś rzeczy.
+    <div id="categories" class="col-xs-2">
+        <nav>
+            <ul>
+                <li><a href="@Url.Action("List","Course", new { ShortNameCours = "View"},null)">Kursy</a></li>
+            </ul>
+        </nav>
     </div>
     <div class="col-xs-8">
         @RenderBody()
     </div>
 </div>
-    
-<footer>
-    <nav>
-        <ul>
-            <li><a href="">Kursy</a></li>
-            <li><a href="">Pomoc</a></li>
-        </ul>        
-    </nav>
+
+<footer class="footer">
+    <div class="center-block">
+        <p>&copy; 2017 eDidactic</p>
+    </div>
 </footer>
-    @RenderSection("ScriptsBotton", required: false)
+@RenderSection("ScriptsBotton", required: false)
 </body>
 </html>

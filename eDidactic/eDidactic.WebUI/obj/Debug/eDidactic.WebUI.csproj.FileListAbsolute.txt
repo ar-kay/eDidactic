@@ -49,3 +49,8 @@ C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\System.Web.Mvc
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\obj\Debug\eDidactic.WebUI.csprojResolveAssemblyReference.cache
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\obj\Debug\eDidactic.WebUI.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\obj\Debug\eDidactic.WebUI.pdb
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Glimpse.AspNet.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Glimpse.Core.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Glimpse.Mvc5.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Glimpse.Ado.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.WebUI\bin\Glimpse.EF6.dll
