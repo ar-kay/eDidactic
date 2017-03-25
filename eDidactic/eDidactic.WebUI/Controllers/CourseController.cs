@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using eDidactic.Domain.Abstract;
+using eDidactic.WebUI.Models;
 
 namespace eDidactic.WebUI.Controllers
 {
@@ -19,10 +20,20 @@ namespace eDidactic.WebUI.Controllers
 
         public ViewResult List(int page = 1)
         {
-            return View(repository.Courses
-                .OrderBy(p => p.Id)
-                .Skip((page - 1) * PageSize)
-                .Take(PageSize));
+            CoursesListViewModel model = new CoursesListViewModel
+            {
+                Courses = repository.Courses
+                    .OrderBy(p => p.Id)
+                    .Skip((page - 1)*PageSize)
+                    .Take(PageSize),
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = page,
+                    ItemsPerPage = PageSize,
+                    TotalItems = repository.Courses.Count()
+                }
+            };
+            return View(model);
         }
 
     }

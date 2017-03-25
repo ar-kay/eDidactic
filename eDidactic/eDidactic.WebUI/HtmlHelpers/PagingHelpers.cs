@@ -5,7 +5,7 @@ using eDidactic.WebUI.Models;
 
 namespace eDidactic.WebUI.HtmlHelpers
 {
-    public class PagingHelpers
+    public static class PagingHelpers
     {
         public static MvcHtmlString PageLinks(this HtmlHelper html, PagingInfo pagingInfo, Func<int, string> pageUrl)
         {
