@@ -3,10 +3,10 @@
 
 @{
     ViewBag.Title = "Kursy";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <div>
-    <h1>Hello eDidactic!</h1>
-    <h2>Lista kursów:</h2>
+    <h2>Lista dostępnych kursów:</h2>
 </div>
 
 @foreach (var p in Model.Courses){
@@ -16,10 +16,11 @@
         </h3>
         <span class="pull-right label label-primary">@p.Description</span>
     </div>
-    <div class="btn-group pull-right">
-        @Html.PageLinks(Model.PagingInfo, x=>Url.Action("List", new {page = x}))
-    </div>
 }
+    <div class="btn-group pull-right">
+        @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new {page = x}))
+    </div>
+
 
 
 

@@ -9,14 +9,15 @@
 </head>
 <body>
 <div class="navbar navbar-inverse" role="navigation">
-    <a class="navbar-brand" href="#">eDidactic</a>
+    <a class="navbar-brand" href="@Url.Content("~/")">eDidactic</a>
 </div>
 
 <div class="row panel">
     <div id="categories" class="col-xs-2">
         <nav>
             <ul>
-                <li><a href="@Url.Action("List","Course", new { ShortNameCours = "View"},null)">Kursy</a></li>
+                <li><a href="@Url.Action("List","Course")">Kursy</a></li>
+                <li><a href="@Url.Action("StaticContent", "Home", new { viewname = "about"})">About</a></li>
             </ul>
         </nav>
     </div>
