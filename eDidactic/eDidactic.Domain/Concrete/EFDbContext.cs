@@ -5,6 +5,10 @@ namespace eDidactic.Domain.Concrete
 {
     public class EFDbContext : DbContext
     {
+        public EFDbContext() : base("EFDbContext")
+        {
+            
+        }
         public DbSet<Course> Courses { get; set; }
     }
 }
