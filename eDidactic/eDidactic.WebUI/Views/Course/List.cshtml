@@ -1,5 +1,5 @@
 ﻿@using eDidactic.Domain.Entities
-@model IEnumerable<Course>
+@model eDidactic.WebUI.Models.CoursesListViewModel
 
 @{
     ViewBag.Title = "Kursy";
@@ -9,12 +9,15 @@
     <h2>Lista kursów:</h2>
 </div>
 
-@foreach (var p in Model){
+@foreach (var p in Model.Courses){
     <div class="well">
         <h3>
             <strong>@p.Name</strong>
         </h3>
         <span class="pull-right label label-primary">@p.Description</span>
+    </div>
+    <div class="btn-group pull-right">
+        @Html.PageLinks(Model.PagingInfo, x=>Url.Action("List", new {page = x}))
     </div>
 }
 
