@@ -26,3 +26,5 @@ C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\Glimpse
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\Glimpse.Mvc5.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\Glimpse.Ado.dll
 C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\bin\Debug\Glimpse.EF6.dll
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\obj\Debug\eDidactic.Domain.Migrations.InitialCreate.resources
+C:\Drive\PROJEKTY\DSP2017\eDidactic\eDidactic\eDidactic.Domain\obj\Debug\eDidactic.Domain.csproj.GenerateResource.Cache
