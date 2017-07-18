@@ -1,0 +1,23 @@
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    padding-top: 80px;
+    overflow: hidden;
+    position: relative;
+    /*background: #3d9dfe;*/
+    background: #e7e9e4;
+}
+
+#wrapper header-logo {
+    background: url('../gfx/fcm_logo.png');
+}
+
+#wrapper h2 {
+    margin-right: 80px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: right;
+    color: #2d6bfd;
+}
