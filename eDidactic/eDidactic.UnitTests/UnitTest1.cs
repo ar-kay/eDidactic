@@ -19,14 +19,14 @@ namespace eDidactic.UnitTests
             Mock<ICourseRepository> mock = new Mock<ICourseRepository>();
             mock.Setup(m => m.Courses).Returns(new Course[]
             {
-                new Course {Id = 1, Name = "C1"},
-                new Course {Id = 2, Name = "C2"},
-                new Course {Id = 3, Name = "C3"},
-                new Course {Id = 4, Name = "C4"},
-                new Course {Id = 5, Name = "C5"},
-                new Course {Id = 6, Name = "C6"},
-                new Course {Id = 7, Name = "C7"},
-                new Course {Id = 8, Name = "C8"}
+                new Course {CourseId = 1, Name = "C1"},
+                new Course {CourseId = 2, Name = "C2"},
+                new Course {CourseId = 3, Name = "C3"},
+                new Course {CourseId = 4, Name = "C4"},
+                new Course {CourseId = 5, Name = "C5"},
+                new Course {CourseId = 6, Name = "C6"},
+                new Course {CourseId = 7, Name = "C7"},
+                new Course {CourseId = 8, Name = "C8"}
             });
 
             CourseController controller = new CourseController(mock.Object);
