@@ -43,8 +43,8 @@ a {
 }
 
 #wrapper .header-description, #wrapper .header-description:before {
-    width: 200px;
-    height: 75px;
+    width: 240px;
+    height: 55px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -60,21 +60,10 @@ a {
     border-radius: 10px;
 } 
 
-#wrapper .header-description div:first-child {
+#wrapper .header-description {
     font-size: 50px;
-    font-family: 'Oregano', cursive;
+    font-family: 'Montserrat', cursive;
     color: #60afff;
-    margin-top: -5px;
-    text-shadow: -2px -1px 2px #000000;
-    filter: dropshadow(color=#000000, offx=-2, offy=-1);
-}
-
-#wrapper .header-description div:last-child {
-    color: #66b3ff;
-    font-size: 20px;
-    font-family: 'Pacifico';
-    margin-top: -6px;
-    margin-left: 10px;
     text-shadow: -2px -1px 2px #000000;
     filter: dropshadow(color=#000000, offx=-2, offy=-1);
 }
@@ -97,7 +86,7 @@ a {
 
 #buttons .buttons-nav {
     margin: auto;
-    width: 370px;
+    width: 540px;
     display: -webkit-flex;
     display: flex;
 }
@@ -128,6 +117,10 @@ a {
 }
 
 .btn:nth-child(1) {
+    margin-right: 20px;
+}
+
+.btn:nth-child(2) {
     margin-right: 70px;
 }
 
