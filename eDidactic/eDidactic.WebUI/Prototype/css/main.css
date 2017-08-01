@@ -6,14 +6,6 @@ a {
     padding-top: 20px;
     overflow: hidden;
     position: relative;
-    border-width: 0.5px;
-    border-bottom-style: groove;
-    background: #eff0ee;
-    background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(45deg, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #wrapper h2 {
@@ -25,26 +17,36 @@ a {
 }
 
 #wrapper .header {
-    display: -webkit-flex;
-    display: flex;
+ /* display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  font-weight: bold;
+  text-align: center; */
 }
 
 #wrapper .header-logo {
     margin-left: 25px;
-    line-height: 86px;    
+    line-height: 86px;  
 }
 
 #wrapper .header-description {
     margin: auto;   
-    background: #ebebeb;
+    background: #f3f4f6;
     position: relative;
     text-align: left;
-    margin-bottom: 15px;
+    margin-bottom: 70px;
+    transform: rotate(-3deg);     
 }
 
 #wrapper .header-description, #wrapper .header-description:before {
-    width: 240px;
-    height: 55px;
+    width: 520px;
+    height: 105px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
@@ -55,33 +57,24 @@ a {
     position: absolute;
     top: -6px;
     left: -6px;
-    border: 1px dashed #e0e6f5;
+    border: 1px dashed #a7aee2;
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    transform: rotate(3deg); 
+    
 } 
 
 #wrapper .header-description {
-    font-size: 50px;
+    font-size: 110px;
     font-family: 'Montserrat', cursive;
     color: #60afff;
     text-shadow: -2px -1px 2px #000000;
     filter: dropshadow(color=#000000, offx=-2, offy=-1);
 }
 
-#body {
-    background-color: #fff; 
-    background-image: 
-    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-    linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 1.2em;
-}
-
 #buttons {
-    background: #ffffff; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background: #f3f4f6; 
+    padding: 60px 0 60px 0;
 }
 
 #buttons .buttons-nav {
@@ -91,21 +84,27 @@ a {
     display: flex;
 }
 
+#buttons .btn .hover {
+   
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    left: 0;
+}
+
 .btn {
-    margin: 40px 0 40px 0px;
-    width: 150px;
-    height: 150px;
-    background: #0076ec;
+    margin: auto;
+    width: 200px;
+    height: 200px;
     position: relative;
-    z-index: 2;
-    float: left;
     border-radius: 50%;
+    background: #0076ec;
 } 
 
 .btn:before {
     content: "";
-    width: 155px;
-    height: 155px;
+    width: 205px;
+    height: 205px;
     padding: 1px 0;
     display: block;
     position: absolute;
@@ -117,11 +116,16 @@ a {
 }
 
 .btn:nth-child(1) {
-    margin-right: 20px;
+    margin-right: 155px;
 }
 
-.btn:nth-child(2) {
-    margin-right: 70px;
+
+#body {
+    background-color: #fff; 
+    background-image: 
+    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
 }
 
 #body .main {
