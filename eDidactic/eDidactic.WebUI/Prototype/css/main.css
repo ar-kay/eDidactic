@@ -84,21 +84,21 @@ a {
     display: flex;
 }
 
-#buttons .btn .hover {
-   
-    position: absolute;
-    top: 0;
-    z-index: 1;
-    left: 0;
+#buttons .btn, .btn .viewport, .btn .hover {
+    width: 200px;
+    height: 200px;
+    position: relative;   
 }
 
 .btn {
-    margin: auto;
-    width: 200px;
-    height: 200px;
-    position: relative;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn {
     border-radius: 50%;
-    background: #0076ec;
+    background: #71b8ff;    
 } 
 
 .btn:before {
@@ -110,7 +110,7 @@ a {
     position: absolute;
     top: -4px;
     left: -4px;
-    border: 1px dashed #e8d9d7;
+    border: 1px dashed #c49c97;
     border-radius: 50%;
     -webkit-border-radius: 50%;
 }
@@ -119,25 +119,76 @@ a {
     margin-right: 155px;
 }
 
+#buttons .btn .viewport a {
+    font-size: 25px;
+    display: block;
+    padding-top: 85px;
+    padding-bottom: 95px;
+    position: relative;
+    z-index: 2;
+}
+
 
 #body {
     background-color: #fff; 
-    background-image: 
-    linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-    linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 1.2em;
+    margin: 0 auto;
 }
 
-#body .main {
-    clear: both;
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 50px;
-    color: #3c3c3c;
+#body .text {
+    width: 200px;
+}
+
+#body .courses {
+    display: -webkit-box; display: -moz-box; display: box;
+    background: #484848;
+    margin: auto;
+    padding: 90px 0 90px 0;
+}
+
+#body .courses div {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+    box-flex: 1;
     font-size: 20px;
     text-align: justify;
     line-height: 30px;
 }
+
+#body .homework {
+    display: -webkit-box; display: -moz-box; display: box;
+    background: #f1f3ab;
+    margin: auto;
+    padding: 90px 0 90px 0;
+
+}
+
+#body .homework div {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+    box-flex: 1;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+#body .tests {
+    display: -webkit-box; display: -moz-box; display: box;
+    background: #dfd5bf;
+    margin: auto;
+    padding: 90px 0 90px 0;
+}
+
+#body .tests div {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+    box-flex: 1;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
 
 #end .footer {
     margin: 40px 0 0 0;
@@ -161,5 +212,4 @@ a {
     text-shadow: -1px -1px 1px #000000;
     filter: dropshadow(color=#000000, offx=-1, offy=-1);
 }
-
 
