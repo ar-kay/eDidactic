@@ -3,15 +3,29 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="~/Content/bootstrap.css" rel="stylesheet" />
-    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="~/Content/html5reset-1.6.1.css" rel="stylesheet" />
+   <!-- <link href="~/Content/bootstrap.css" rel="stylesheet" />-->
+   <!-- <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />-->
+    <link href="~/Content/main.css" rel="stylesheet" />
     <title>@ViewBag.Title</title>
 </head>
 <body>
-<div class="navbar navbar-inverse" role="navigation">
-    <a class="navbar-brand" href="@Url.Content("~/")">eDidactic</a>
-</div>
-
+    <section id="wrapper">
+        <a href="index.html">
+            <div class="header">
+                <div class="header-logo">
+                    <img src="~/Content/gfx/fcm_logo.png">
+                </div>
+                <div class="header-description">
+                    <div>
+                        eDidactic
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
+<!-- 
 <div class="row panel">
     <div id="categories" class="col-xs-2">
         <nav>
@@ -22,15 +36,26 @@
         </nav>
     </div>
     <div class="col-xs-8">
-        @RenderBody()
+       
     </div>
 </div>
+-->
+    <section id="gray">
+        <div class="gray-nav">
 
-<footer class="footer">
-    <div class="center-block">
-        <p>&copy; 2017 eDidactic</p>
+            @RenderBody()
+
+        </div>
+
+    </section>    
+
+<section id="end">
+    <div class="footer">
+        <div>
+            eDidactic &copy; 2017 - Elektroniczny system wspierający edukację
+        </div>
     </div>
-</footer>
+</section>
 @RenderSection("ScriptsBotton", required: false)
 </body>
 </html>

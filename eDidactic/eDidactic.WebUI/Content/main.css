@@ -1,0 +1,302 @@
+a {
+    text-decoration: none;
+}
+
+#wrapper {
+    padding-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+#wrapper h2 {
+    margin-right: 80px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: right;
+    color: #2d6bfd;
+}
+
+#wrapper .header {
+ /* display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  font-weight: bold;
+  text-align: center; */
+}
+
+#wrapper .header-logo {
+    margin-left: 25px;
+    line-height: 86px;  
+}
+
+#wrapper .header-description {
+    margin: auto;   
+    background: #f3f4f6;
+    position: relative;
+    text-align: left;
+    margin-bottom: 70px;
+    transform: rotate(-3deg);     
+}
+
+#wrapper .header-description, #wrapper .header-description:before {
+    width: 520px;
+    height: 105px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#wrapper .header-description:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    border: 1px dashed #a7aee2;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    transform: rotate(3deg); 
+    
+} 
+
+#wrapper .header-description {
+    font-size: 110px;
+    font-family: 'Montserrat', cursive;
+    color: #60afff;
+    text-shadow: -2px -1px 2px #000000;
+    filter: dropshadow(color=#000000, offx=-2, offy=-1);
+}
+
+#gray {
+    background: #f3f4f6; 
+    padding: 60px 0 60px 0;
+}
+
+#gray .gray-nav {
+    margin: auto;
+    width: 540px;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#gray .btn, .btn .viewport, .btn .hover {
+    width: 200px;
+    height: 200px;
+    position: relative;   
+}
+
+.btn {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn {
+    border-radius: 50%;
+    background: #71b8ff;    
+} 
+
+.btn:before {
+    content: "";
+    width: 205px;
+    height: 205px;
+    padding: 1px 0;
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    border: 1px dashed #c49c97;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.btn:nth-child(1) {
+    margin-right: 155px;
+}
+
+#gray .btn .viewport a {
+    font-size: 25px;
+    display: block;
+    padding-top: 85px;
+    padding-bottom: 95px;
+    position: relative;
+    z-index: 2;
+}
+
+
+#body {
+    background-color: #fff; 
+    margin: 0 auto;
+}
+
+#body .text {
+    width: 200px;
+}
+
+#body .courses {
+    display: -webkit-box; display: -moz-box; display: box;
+    background: #484848;
+    margin: auto;
+    padding: 90px 0 90px 0;
+}
+
+#body .courses div {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+    box-flex: 1;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#body .homework {
+    display: -webkit-box; display: -moz-box; display: box;
+    background: #f1f3ab;
+    margin: auto;
+    padding: 90px 0 90px 0;
+
+}
+
+#body .homework div {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+    box-flex: 1;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+#body .tests {
+    display: -webkit-box; display: -moz-box; display: box;
+    background: #dfd5bf;
+    margin: auto;
+    padding: 90px 0 90px 0;
+}
+
+#body .tests div {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+    box-flex: 1;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+
+#end .footer {
+   /* background-color: #494e50;*/
+    border-top-style: groove;
+    border-color: #777879;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    color: #fdefd7;
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #45484d 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.footer div {
+    text-align: center;
+    text-shadow: -1px -1px 1px #000000;
+    filter: dropshadow(color=#000000, offx=-1, offy=-1);
+}
+
+/* login website */
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans);
+
+.container {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  .login {
+    margin-top: 50px;
+    width: 450px;
+  }
+  
+  .login-heading {
+    font: 1.8em/48px "Tenor Sans", sans-serif;
+    color: rgb(133, 130, 130);
+  }
+  
+  .input-txt {
+    width: 100%;
+    padding: 20px 10px;
+    background: rgb(237, 237, 241);
+    border: none;
+    font-size: 1em;
+    margin-top: 2px;
+    color: #5D92BA;
+    border-bottom: 1px dotted rgba(250, 250, 250, 0.4);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+  }
+  .input-txt:-moz-placeholder {
+    color: #81aac9;
+  }
+  .input-txt:-ms-input-placeholder {
+    color: #81aac9;
+  }
+  .input-txt::-webkit-input-placeholder {
+    color: #81aac9;
+  }
+  .input-txt:focus {
+    background-color: rgba(182, 217, 244, 0.74);
+  }
+  
+  .login-footer {
+    margin: 10px 0;
+    overlow: hidden;
+    float: left;
+    width: 100%;
+  }
+  
+  .btn-login {
+    padding: 15px 30px;
+    border: none;
+    background: white;
+    color: #5D92BA;
+  }
+  
+  .btn--right {
+    float: right;
+    margin-left: 5px;
+    font: 17px "Tenor Sans", sans-serif;
+  }
+
+  .btn--right:nth-child(2) {
+    font-weight: bold;
+}
+  
+  .icon {
+    display: inline-block;
+  }
+  
+  .icon--min {
+    font-size: .9em;
+  }
+  
+  .lnk {
+    font-size: .8em;
+    line-height: 3em;
+    color: #6577AC;
+    text-decoration: none;
+  }
+  
+
