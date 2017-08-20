@@ -2,13 +2,14 @@ a {
     text-decoration: none;
 }
 
-#wrapper {
+#ed-wrapper {
     padding-top: 20px;
     overflow: hidden;
     position: relative;
+    text-decoration: none;
 }
 
-#wrapper h2 {
+#ed-wrapper h2 {
     margin-right: 80px;
     margin-bottom: 10px;
     font-size: 30px;
@@ -16,26 +17,13 @@ a {
     color: #2d6bfd;
 }
 
-#wrapper .header {
- /* display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
 
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  
-  font-weight: bold;
-  text-align: center; */
-}
-
-#wrapper .header-logo {
+#ed-wrapper .ed-header-logo {
     margin-left: 25px;
     line-height: 86px;  
 }
 
-#wrapper .header-description {
+#ed-wrapper .ed-header-description { 
     margin: auto;   
     background: #f3f4f6;
     position: relative;
@@ -44,14 +32,14 @@ a {
     transform: rotate(-3deg);     
 }
 
-#wrapper .header-description, #wrapper .header-description:before {
+#ed-wrapper .ed-header-description, #ed-wrapper .ed-header-description:before {
     width: 520px;
     height: 105px;
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
 
-#wrapper .header-description:before {
+#ed-wrapper .ed-header-description:before {
     content: "";
     display: block;
     position: absolute;
@@ -64,7 +52,7 @@ a {
     
 } 
 
-#wrapper .header-description {
+#ed-wrapper .ed-header-description {
     font-size: 110px;
     font-family: 'Montserrat', cursive;
     color: #60afff;
@@ -72,36 +60,36 @@ a {
     filter: dropshadow(color=#000000, offx=-2, offy=-1);
 }
 
-#gray {
+#ed-gray {
     background: #f3f4f6; 
     padding: 60px 0 60px 0;
 }
 
-#gray .gray-nav {
+#ed-gray .ed-gray-nav {
     margin: auto;
     width: 540px;
     display: -webkit-flex;
     display: flex;
 }
 
-#gray .btn, .btn .viewport, .btn .hover {
+#ed-gray .ed-btn, .ed-btn .ed-viewport, .ed-btn .ed-hover {
     width: 200px;
     height: 200px;
     position: relative;   
 }
 
-.btn {
+.ed-btn {
     float: left;
     margin-top: 10px;
     text-align: center;
 }
 
-.btn {
+.ed-btn {
     border-radius: 50%;
     background: #71b8ff;    
 } 
 
-.btn:before {
+.ed-btn:before {
     content: "";
     width: 205px;
     height: 205px;
@@ -115,11 +103,11 @@ a {
     -webkit-border-radius: 50%;
 }
 
-.btn:nth-child(1) {
+.ed-btn:nth-child(1) {
     margin-right: 155px;
 }
 
-#gray .btn .viewport a {
+#ed-gray .ed-btn .ed-viewport a {
     font-size: 25px;
     display: block;
     padding-top: 85px;
@@ -129,23 +117,23 @@ a {
 }
 
 
-#body {
+#ed-body {
     background-color: #fff; 
     margin: 0 auto;
 }
 
-#body .text {
+#ed-body .ed-text {
     width: 200px;
 }
 
-#body .courses {
+#ed-body .ed-courses {
     display: -webkit-box; display: -moz-box; display: box;
     background: #484848;
     margin: auto;
     padding: 90px 0 90px 0;
 }
 
-#body .courses div {
+#ed-body .ed-courses div {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	-ms-box-flex: 1;
@@ -155,7 +143,7 @@ a {
     line-height: 30px;
 }
 
-#body .homework {
+#ed-body .ed-homework {
     display: -webkit-box; display: -moz-box; display: box;
     background: #f1f3ab;
     margin: auto;
@@ -163,7 +151,7 @@ a {
 
 }
 
-#body .homework div {
+#ed-body .ed-homework div {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	-ms-box-flex: 1;
@@ -172,14 +160,14 @@ a {
     text-align: justify;
     line-height: 30px;
 }
-#body .tests {
+#ed-body .ed-tests {
     display: -webkit-box; display: -moz-box; display: box;
     background: #dfd5bf;
     margin: auto;
     padding: 90px 0 90px 0;
 }
 
-#body .tests div {
+#ed-body .ed-tests div {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	-ms-box-flex: 1;
@@ -188,9 +176,8 @@ a {
     text-align: justify;
     line-height: 30px;
 }
-
-
-#end .footer {
+  
+#end .ed-footer {
    /* background-color: #494e50;*/
     border-top-style: groove;
     border-color: #777879;
@@ -205,32 +192,32 @@ a {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-.footer div {
+.ed-footer div {
     text-align: center;
     text-shadow: -1px -1px 1px #000000;
     filter: dropshadow(color=#000000, offx=-1, offy=-1);
 }
 
-/* login website */
+/* ed-login website */
 @import url(https://fonts.googleapis.com/css?family=Tenor+Sans);
 
-.container {
+.ed-container {
     width: 500px;
     height: 400px;
     margin: 0 auto;
   }
   
-  .login {
+  .ed-login {
     margin-top: 50px;
     width: 450px;
   }
   
-  .login-heading {
+  .ed-login-heading {
     font: 1.8em/48px "Tenor Sans", sans-serif;
     color: rgb(133, 130, 130);
   }
   
-  .input-txt {
+  .ed-input-txt {
     width: 100%;
     padding: 20px 10px;
     background: rgb(237, 237, 241);
@@ -247,40 +234,40 @@ a {
     -webkit-transition: background-color 0.5s ease-in-out;
     transition: background-color 0.5s ease-in-out;
   }
-  .input-txt:-moz-placeholder {
+  .ed-input-txt:-moz-placeholder {
     color: #81aac9;
   }
-  .input-txt:-ms-input-placeholder {
+  .ed-input-txt:-ms-ed-input-placeholder {
     color: #81aac9;
   }
-  .input-txt::-webkit-input-placeholder {
+  .ed-input-txt::-webkit-ed-input-placeholder {
     color: #81aac9;
   }
-  .input-txt:focus {
+  .ed-input-txt:focus {
     background-color: rgba(182, 217, 244, 0.74);
   }
   
-  .login-footer {
+  .ed-login-ed-footer {
     margin: 10px 0;
     overlow: hidden;
     float: left;
     width: 100%;
   }
   
-  .btn-login {
+  .ed-btn-ed-login {
     padding: 15px 30px;
     border: none;
     background: white;
     color: #5D92BA;
   }
   
-  .btn--right {
+  .ed-btn--right {
     float: right;
     margin-left: 5px;
     font: 17px "Tenor Sans", sans-serif;
   }
 
-  .btn--right:nth-child(2) {
+  .ed-btn--right:nth-child(2) {
     font-weight: bold;
 }
   

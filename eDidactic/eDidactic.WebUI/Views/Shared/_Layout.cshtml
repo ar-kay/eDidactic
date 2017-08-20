@@ -5,19 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="~/Content/html5reset-1.6.1.css" rel="stylesheet" />
-   <!-- <link href="~/Content/bootstrap.css" rel="stylesheet" />-->
-   <!-- <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />-->
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
     <link href="~/Content/main.css" rel="stylesheet" />
     <title>@ViewBag.Title</title>
 </head>
 <body>
-    <section id="wrapper">
-        <a href="index.html">
-            <div class="header">
-                <div class="header-logo">
+    <section id="ed-wrapper">
+        <a href="@Url.Content("~/")">
+            <div class="ed-header">
+                <div class="ed-header-logo">
                     <img src="~/Content/gfx/fcm_logo.png">
                 </div>
-                <div class="header-description">
+                <div class="ed-header-description">
                     <div>
                         eDidactic
                     </div>
@@ -40,17 +40,10 @@
     </div>
 </div>
 -->
-    <section id="gray">
-        <div class="gray-nav">
-
-            @RenderBody()
-
-        </div>
-
-    </section>    
-
+ @RenderBody()
+ 
 <section id="end">
-    <div class="footer">
+    <div class="ed-footer">
         <div>
             eDidactic &copy; 2017 - Elektroniczny system wspierający edukację
         </div>
