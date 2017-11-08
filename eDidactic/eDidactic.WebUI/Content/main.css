@@ -29,7 +29,8 @@ a {
     position: relative;
     text-align: left;
     margin-bottom: 70px;
-    transform: rotate(-3deg);     
+    transform: rotate(-3deg);  
+    text-decoration: none;   
 }
 
 #ed-wrapper .ed-header-description, #ed-wrapper .ed-header-description:before {

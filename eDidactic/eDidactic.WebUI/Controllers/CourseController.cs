@@ -22,7 +22,7 @@ namespace eDidactic.WebUI.Controllers
 
         public ViewResult List(int page = 1)
         {
-            CoursesListViewModel model = new CoursesListViewModel
+            CoursesListViewModels model = new CoursesListViewModels
             {
                 Courses = db.Courses
                     .Where(a => a.IsArchive == 0)

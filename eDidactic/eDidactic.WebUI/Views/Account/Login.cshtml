@@ -1,0 +1,48 @@
+﻿@model eDidactic.WebUI.ViewModels.LoginViewModel
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="ed-gray">
+    <div class="ed-gray-nav">
+
+        @using (@Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
+        { 
+            @Html.AntiForgeryToken()
+
+            <div id="login-error">
+                @Html.ValidationMessage("loginerror", "")
+            </div>
+
+            <div class="ed-container">
+                <div class="ed-login">
+                    <h1 class="ed-login-heading">Logowanie dla wykładowców:</h1>
+                    
+                        @Html.TextBoxFor(o => o.Login, new { placeholder = "Użytkownik", @class = "ed-input-txt" })
+                        <div>@Html.ValidationMessageFor(o => o.Login)</div>
+                    
+                        @Html.PasswordFor(o => o.Password, new { placeholder = "Hasło", @class = "ed-input-txt" })
+                        <div>@Html.ValidationMessageFor(o => o.Password)</div>    
+
+                        <div class="ed-login-ed-footer">
+                            @Html.CheckBoxFor(m => m.RememberMe, new { @checked = "checked"})
+                            @Html.LabelFor(m => m.RememberMe)
+                            <a href="#" class="lnk">
+                                <span class="icon icon--min"></span>
+                                Przypomnij hasło!
+                            </a><br />
+                            <button type="submit" class="ed-btn-ed-login ed-btn--right">Zaloguj  </button>
+                            <a href="index.html">
+                                <div class="ed-btn-ed-login ed-btn--right">Powrót </div>
+                            </a>
+
+                        </div>
+                    
+                </div>
+            </div>
+        }
+    </div>
+
+</section>
+
