@@ -1,0 +1,51 @@
+﻿@model eDidactic.WebUI.ViewModels.RegisterViewModel
+@{
+    ViewBag.Title = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="ed-gray">
+    <div class="ed-gray-nav">
+
+        @using (@Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            <div id="login-error">
+                @Html.ValidationMessage("loginerror", "")
+            </div>
+
+            <div class="ed-container">
+                <div class="ed-login">
+                    <h1 class="ed-login-heading">Rejestracja dla wykładowców:</h1>
+
+                    @Html.TextBoxFor(o => o.Login, new { placeholder = "Użytkownik", @class = "ed-input-txt" })
+                    <div>@Html.ValidationMessageFor(o => o.Login)</div>
+
+                    @Html.PasswordFor(o => o.Password, new { placeholder = "Hasło", @class = "ed-input-txt" })
+                    <div>@Html.ValidationMessageFor(o => o.Password)</div>
+
+                    @Html.PasswordFor(o => o.ConfirmPassword, new { placeholder = "Powtórz hasło", @class = "ed-input-txt" })
+                    <div>@Html.ValidationMessageFor(o => o.ConfirmPassword)</div>
+
+                    <div class="ed-login-ed-footer">
+                        <button type="submit" class="ed-btn-ed-login ed-btn--right">Zarejestruj  </button>
+                        <a href="@Url.Action("Login", "Account")">
+                            <div class="ed-btn-ed-login ed-btn--right">Powrót </div>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        }
+    </div>
+
+</section>
+
+@section ScriptsBottom {
+    <script src="~/Scripts/jquery-3.2.1.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+}
+
