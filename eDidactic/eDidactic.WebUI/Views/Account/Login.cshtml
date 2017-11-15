@@ -33,7 +33,7 @@
                                 Przypomnij hasło!
                             </a><br />
                             <button type="submit" class="ed-btn-ed-login ed-btn--right">Zaloguj  </button>
-                            <a href="index.html">
+                            <a href="@Url.Action("Index", "Home")">
                                 <div class="ed-btn-ed-login ed-btn--right">Powrót </div>
                             </a>
 
@@ -45,4 +45,10 @@
     </div>
 
 </section>
+
+@section ScriptsBottom {
+    <script src="~/Scripts/jquery-3.2.1.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+}
 
